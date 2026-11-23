@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "candyshell",
+	"version": "${version}",
+	"name": "MC Candy Shell",
+	"description": "Rap battle MC Candy Shell, a glossy green candy rapper. Pick your rhymes, drain his health bar... and probably lose.",
+	"authors": [
+		"YOUR NAME"
+	],
+	"license": "MIT",
+	"icon": "assets/candyshell/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.candyshell.CandyShellMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
